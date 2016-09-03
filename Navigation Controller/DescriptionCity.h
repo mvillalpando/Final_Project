@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Maps.h"
+#import "PayPalMobile.h"
 
 @interface DescriptionCity : UIViewController
 @property NSString *dTitles;

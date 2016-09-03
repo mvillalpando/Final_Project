@@ -18,7 +18,7 @@
 
 @property NSString *stTitleSelected;
 @property NSString *stDescriptionSelected;
-@property NSString *stPrice;
+@property NSString *stPriceSelected;
 @property NSString *stPhotoSelected;
 @property NSString *stImageSelected;
 
@@ -133,6 +133,7 @@
     self.stDescriptionSelected  = self.dDescriptions[indexPath.row];
     self.stPhotoSelected        = self.dPhotos[indexPath.row];
     self.stImageSelected        = self.dImages[indexPath.row];
+    self.stPriceSelected        = self.dPrice[indexPath.row];
     [self performSegueWithIdentifier:@"Description" sender:self];
 }
 /**********************************************************************************************/
@@ -147,6 +148,7 @@
         destination.dDescriptions  = self.stDescriptionSelected;
         destination.dPhotos        = self.stPhotoSelected;
         destination.dImages        = self.stImageSelected;
+        destination.dPrice        = self.stPriceSelected;
         
     }
 }

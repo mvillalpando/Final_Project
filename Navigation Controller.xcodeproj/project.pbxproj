@@ -42,7 +42,6 @@
 		68E437A11D7A780A00594C4F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 68E437A01D7A780A00594C4F /* Podfile */; };
 		68E437A31D7A887000594C4F /* OG-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E437A21D7A887000594C4F /* OG-Logo.png */; };
 		68E437A51D7A893B00594C4F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E437A41D7A893B00594C4F /* logo.png */; };
-		68E437A81D7A8DD200594C4F /* PayPal.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E437A71D7A8DD200594C4F /* PayPal.m */; };
 		AB9664341D260B05009190CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664331D260B05009190CE /* main.m */; };
 		AB9664371D260B05009190CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664361D260B05009190CE /* AppDelegate.m */; };
 		AB96643A1D260B05009190CE /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664391D260B05009190CE /* Home.m */; };
@@ -95,11 +94,9 @@
 		68E437991D7A63BB00594C4F /* cellMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMaps.h; sourceTree = "<group>"; };
 		68E4379A1D7A63BB00594C4F /* cellMaps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMaps.m; sourceTree = "<group>"; };
 		68E4379B1D7A63BB00594C4F /* cellMaps.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMaps.xib; sourceTree = "<group>"; };
-		68E437A01D7A780A00594C4F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		68E437A01D7A780A00594C4F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		68E437A21D7A887000594C4F /* OG-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OG-Logo.png"; sourceTree = "<group>"; };
 		68E437A41D7A893B00594C4F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		68E437A61D7A8DD200594C4F /* PayPal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPal.h; sourceTree = "<group>"; };
-		68E437A71D7A8DD200594C4F /* PayPal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayPal.m; sourceTree = "<group>"; };
 		952238516D20F6E1D0C1D7F9 /* Pods_Navigation_Controller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Navigation_Controller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB96642F1D260B05009190CE /* Navigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9664331D260B05009190CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -248,8 +245,6 @@
 				ABBAAD371D27199D003D4AE3 /* DescriptionCity.m */,
 				68E437961D7A61AE00594C4F /* Maps.h */,
 				68E437971D7A61AE00594C4F /* Maps.m */,
-				68E437A61D7A8DD200594C4F /* PayPal.h */,
-				68E437A71D7A8DD200594C4F /* PayPal.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -440,7 +435,6 @@
 				ABBAAD321D270444003D4AE3 /* cellDestinations.m in Sources */,
 				ABBAAD381D27199D003D4AE3 /* DescriptionCity.m in Sources */,
 				AB9664521D26112C009190CE /* cellHome.m in Sources */,
-				68E437A81D7A8DD200594C4F /* PayPal.m in Sources */,
 				AB9664341D260B05009190CE /* main.m in Sources */,
 				68E437981D7A61AE00594C4F /* Maps.m in Sources */,
 				68E4379C1D7A63BB00594C4F /* cellMaps.m in Sources */,

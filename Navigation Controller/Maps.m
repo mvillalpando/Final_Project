@@ -9,6 +9,7 @@
 #import "Maps.h"
 @import GoogleMaps;
 
+
 @interface Maps ()
 
 @property NSMutableArray *cedisName;
@@ -32,21 +33,6 @@ GMSMapView *mapView_;
 /**********************************************************************************************/
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self initController];
-    
-}
-
-//-------------------------------------------------------------------------------
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-//-------------------------------------------------------------------------------
-- (void)initController {
-    self.cedisName   = [[NSMutableArray alloc] initWithObjects: @"Guadalajara", @"Monterrey", @"Tijuana", @"Ciudad de Mexico", @"Pachuca", nil];
-    self.cedisAddress   = [[NSMutableArray alloc] initWithObjects: @"Paseo de la Arboleda No. 1122", @"Av. José Eleuterio Gómez No. 315", @"Blvd. Díaz Ordaz No. 14910", @"Av. Insurgentes Sur No. 1666", @"Av. Revolución esq. 16 de enero", nil];
-    self.coorLatitude   = [[NSMutableArray alloc] initWithObjects: @"20.6575109", @"25.6796906", @"32.4951589", @"19.361577", @"20.1161821", nil];
-    self.coorLongitude   = [[NSMutableArray alloc] initWithObjects: @"-103.3883214", @"-100.3525703", @"-116.9605764", @"-99.1850139", @"-98.7453833", nil];
     
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:20.5439579
                                                             longitude:-103.396334
@@ -103,42 +89,15 @@ GMSMapView *mapView_;
     marker6.title = @"Tonalá";
     marker6.snippet = @"Calle Las Huertas No. 1500";
     marker6.map = mapView_;
-
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
-/**********************************************************************************************/
-#pragma mark - Table source and delegate methods
-/**********************************************************************************************/
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
-}
-//-------------------------------------------------------------------------------
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.cedisName.count;
-}
-//-------------------------------------------------------------------------------
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 150;
-}
-//-------------------------------------------------------------------------------
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    //Initialize cells
-    cellMaps *cell = (cellMaps *)[tableView dequeueReusableCellWithIdentifier:@"cellMaps"];
-    
-    if (cell == nil) {
-        [tableView registerNib:[UINib nibWithNibName:@"cellMaps" bundle:nil] forCellReuseIdentifier:@"cellMaps"];
-        cell = [tableView dequeueReusableCellWithIdentifier:@"cellMaps"];
-    }
-    
-    cell.lblCedisName.text = self.cedisName[indexPath.row];
-    cell.lblCedisAddress.text = self.cedisAddress[indexPath.row];
-//    _Latitude = self.coorLatitude[indexPath.row];
-//    Longitude = self.coorLongitude[indexPath.row];
-//    cell.imgDestination.image = [UIImage imageNamed:self.destinationPhotos[indexPath.row]];
-    return cell;
-
-}
 
 
+//-------------------------------------------------------------------------------
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
 
 @end

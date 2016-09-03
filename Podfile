@@ -4,4 +4,5 @@ use_frameworks!
 
 target 'Navigation Controller' do
 pod 'GoogleMaps'
+pod 'PayPal-iOS-SDK'
 end

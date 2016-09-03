@@ -116,7 +116,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="PLY-cK-2Dp" kind="push" id="jUR-qI-hGB"/>
+                                    <action selector="pay" destination="5d7-7m-O8q" eventType="touchUpInside" id="cRq-Ue-A0o"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -133,21 +133,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gnr-09-26a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1077" y="272"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="hId-OV-UgU">
-            <objects>
-                <viewController id="PLY-cK-2Dp" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="YBd-0s-6aU">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="I1h-pm-lh6"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lbb-Wq-xEM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1512" y="609"/>
         </scene>
         <!--Maps-->
         <scene sceneID="MXu-Zw-gr4">
