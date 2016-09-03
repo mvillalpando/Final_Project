@@ -18,7 +18,7 @@
     [super viewDidLoad];
     self.lblCity.text          = self.dTitles;
     self.lblDescription.text    = self.dDescriptions;
-    self.imgDescription.image   = [UIImage imageNamed:self.dPhotos];
+    self.imgDescription.image   = [UIImage imageNamed:self.dImages];
     
     self.lblDescription.numberOfLines = 0;
     [self.lblDescription sizeToFit];

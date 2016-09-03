@@ -7,38 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB8A95A51D3ED37A006E6031 /* AguaPrieta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95851D3ED37A006E6031 /* AguaPrieta.jpg */; };
-		AB8A95A61D3ED37A006E6031 /* Bahia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95861D3ED37A006E6031 /* Bahia.jpg */; };
-		AB8A95A71D3ED37A006E6031 /* Cancun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95871D3ED37A006E6031 /* Cancun.jpg */; };
-		AB8A95A81D3ED37A006E6031 /* Chiapas.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95881D3ED37A006E6031 /* Chiapas.png */; };
-		AB8A95A91D3ED37A006E6031 /* Cozumel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95891D3ED37A006E6031 /* Cozumel.jpg */; };
-		AB8A95AA1D3ED37A006E6031 /* Culiacan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A958A1D3ED37A006E6031 /* Culiacan.jpg */; };
-		AB8A95AB1D3ED37A006E6031 /* Fuerte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A958B1D3ED37A006E6031 /* Fuerte.jpg */; };
-		AB8A95AC1D3ED37A006E6031 /* Guadalajara.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A958C1D3ED37A006E6031 /* Guadalajara.png */; };
-		AB8A95AD1D3ED37A006E6031 /* Guasave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A958D1D3ED37A006E6031 /* Guasave.jpg */; };
-		AB8A95AE1D3ED37A006E6031 /* Guaymas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A958E1D3ED37A006E6031 /* Guaymas.jpg */; };
-		AB8A95AF1D3ED37A006E6031 /* Hermosillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A958F1D3ED37A006E6031 /* Hermosillo.jpg */; };
-		AB8A95B01D3ED37A006E6031 /* Isla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95901D3ED37A006E6031 /* Isla.jpg */; };
-		AB8A95B11D3ED37A006E6031 /* Jalisco.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95911D3ED37A006E6031 /* Jalisco.png */; };
-		AB8A95B21D3ED37A006E6031 /* Jerez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95921D3ED37A006E6031 /* Jerez.jpg */; };
-		AB8A95B31D3ED37A006E6031 /* Mazatlan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95931D3ED37A006E6031 /* Mazatlan.jpg */; };
-		AB8A95B41D3ED37A006E6031 /* Mochis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95941D3ED37A006E6031 /* Mochis.jpg */; };
-		AB8A95B51D3ED37A006E6031 /* Nochistlan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95951D3ED37A006E6031 /* Nochistlan.jpg */; };
-		AB8A95B61D3ED37A006E6031 /* Pinos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95961D3ED37A006E6031 /* Pinos.jpg */; };
-		AB8A95B71D3ED37A006E6031 /* Playa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95971D3ED37A006E6031 /* Playa.jpg */; };
-		AB8A95B81D3ED37A006E6031 /* QuintanaRoo.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95981D3ED37A006E6031 /* QuintanaRoo.png */; };
-		AB8A95B91D3ED37A006E6031 /* SanCarlos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95991D3ED37A006E6031 /* SanCarlos.jpg */; };
-		AB8A95BA1D3ED37A006E6031 /* SanSebastian.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A959A1D3ED37A006E6031 /* SanSebastian.png */; };
-		AB8A95BB1D3ED37A006E6031 /* Sinaloa.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A959B1D3ED37A006E6031 /* Sinaloa.png */; };
-		AB8A95BC1D3ED37A006E6031 /* Sombrerete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A959C1D3ED37A006E6031 /* Sombrerete.jpg */; };
-		AB8A95BD1D3ED37A006E6031 /* Sonora.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A959D1D3ED37A006E6031 /* Sonora.png */; };
-		AB8A95BE1D3ED37A006E6031 /* Tapalpa.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A959E1D3ED37A006E6031 /* Tapalpa.png */; };
-		AB8A95BF1D3ED37A006E6031 /* Tequila.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A959F1D3ED37A006E6031 /* Tequila.png */; };
-		AB8A95C01D3ED37A006E6031 /* Teul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95A01D3ED37A006E6031 /* Teul.jpg */; };
-		AB8A95C11D3ED37A006E6031 /* Tulum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95A11D3ED37A006E6031 /* Tulum.jpg */; };
-		AB8A95C21D3ED37A006E6031 /* Vallarta.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95A21D3ED37A006E6031 /* Vallarta.png */; };
-		AB8A95C31D3ED37A006E6031 /* Zacatecas.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95A31D3ED37A006E6031 /* Zacatecas.png */; };
-		AB8A95C41D3ED37A006E6031 /* Zapopan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8A95A41D3ED37A006E6031 /* Zapopan.jpg */; };
+		68E4376B1D7A2B8A00594C4F /* alimenticios.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437581D7A2B8A00594C4F /* alimenticios.jpg */; };
+		68E4376C1D7A2B8A00594C4F /* black_coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437591D7A2B8A00594C4F /* black_coffee.jpg */; };
+		68E4376D1D7A2B8A00594C4F /* black_ice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E4375A1D7A2B8A00594C4F /* black_ice.jpg */; };
+		68E4376E1D7A2B8A00594C4F /* cafe_mocha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E4375B1D7A2B8A00594C4F /* cafe_mocha.jpg */; };
+		68E4376F1D7A2B8A00594C4F /* cafe_supreme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E4375C1D7A2B8A00594C4F /* cafe_supreme.jpg */; };
+		68E437701D7A2B8A00594C4F /* cafe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E4375D1D7A2B8A00594C4F /* cafe.jpg */; };
+		68E437711D7A2B8A00594C4F /* cafelatte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E4375E1D7A2B8A00594C4F /* cafelatte.jpg */; };
+		68E437731D7A2B8A00594C4F /* cuidadopersonal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437601D7A2B8A00594C4F /* cuidadopersonal.jpg */; };
+		68E437741D7A2B8A00594C4F /* ganoderma_lucidum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437611D7A2B8A00594C4F /* ganoderma_lucidum.jpg */; };
+		68E437751D7A2B8A00594C4F /* ganoderma_polvo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437621D7A2B8A00594C4F /* ganoderma_polvo.jpg */; };
+		68E437761D7A2B8A00594C4F /* green_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437631D7A2B8A00594C4F /* green_tea.jpg */; };
+		68E437771D7A2B8A00594C4F /* hot_chocolate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437641D7A2B8A00594C4F /* hot_chocolate.jpg */; };
+		68E437781D7A2B8A00594C4F /* King_of_coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437651D7A2B8A00594C4F /* King_of_coffee.jpg */; };
+		68E437791D7A2B8A00594C4F /* lucidum_mycelium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437661D7A2B8A00594C4F /* lucidum_mycelium.jpg */; };
+		68E4377A1D7A2B8A00594C4F /* natraceuticos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437671D7A2B8A00594C4F /* natraceuticos.jpg */; };
+		68E4377B1D7A2B8A00594C4F /* ogsmile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437681D7A2B8A00594C4F /* ogsmile.jpg */; };
+		68E4377C1D7A2B8A00594C4F /* red_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437691D7A2B8A00594C4F /* red_tea.jpg */; };
+		68E437811D7A511E00594C4F /* g3_soap.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E4377E1D7A511E00594C4F /* g3_soap.png */; };
+		68E437821D7A511E00594C4F /* og_smile_set.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E4377F1D7A511E00594C4F /* og_smile_set.png */; };
+		68E437831D7A511E00594C4F /* og_smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E437801D7A511E00594C4F /* og_smile.png */; };
+		68E437891D7A542E00594C4F /* bolsa_king.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437841D7A542E00594C4F /* bolsa_king.jpg */; };
+		68E4378A1D7A542E00594C4F /* coffe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437851D7A542E00594C4F /* coffe.jpg */; };
+		68E4378B1D7A542E00594C4F /* jarra_te_verde.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437861D7A542E00594C4F /* jarra_te_verde.jpg */; };
+		68E4378C1D7A542E00594C4F /* latte_lentes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437871D7A542E00594C4F /* latte_lentes.jpg */; };
+		68E4378D1D7A542E00594C4F /* mesa_terojo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437881D7A542E00594C4F /* mesa_terojo.jpg */; };
+		68E437911D7A57BA00594C4F /* taza_chocolate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E4378E1D7A57BA00594C4F /* taza_chocolate.jpg */; };
+		68E437921D7A57BA00594C4F /* taza_supreme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E4378F1D7A57BA00594C4F /* taza_supreme.jpg */; };
+		68E437931D7A57BA00594C4F /* vasos_mocha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437901D7A57BA00594C4F /* vasos_mocha.jpg */; };
+		68E437951D7A582C00594C4F /* vaso_backice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437941D7A582C00594C4F /* vaso_backice.jpg */; };
+		68E437981D7A61AE00594C4F /* Maps.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E437971D7A61AE00594C4F /* Maps.m */; };
 		AB9664341D260B05009190CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664331D260B05009190CE /* main.m */; };
 		AB9664371D260B05009190CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664361D260B05009190CE /* AppDelegate.m */; };
 		AB96643A1D260B05009190CE /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664391D260B05009190CE /* Home.m */; };
@@ -55,38 +53,37 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB8A95851D3ED37A006E6031 /* AguaPrieta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AguaPrieta.jpg; sourceTree = "<group>"; };
-		AB8A95861D3ED37A006E6031 /* Bahia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bahia.jpg; sourceTree = "<group>"; };
-		AB8A95871D3ED37A006E6031 /* Cancun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cancun.jpg; sourceTree = "<group>"; };
-		AB8A95881D3ED37A006E6031 /* Chiapas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chiapas.png; sourceTree = "<group>"; };
-		AB8A95891D3ED37A006E6031 /* Cozumel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cozumel.jpg; sourceTree = "<group>"; };
-		AB8A958A1D3ED37A006E6031 /* Culiacan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Culiacan.jpg; sourceTree = "<group>"; };
-		AB8A958B1D3ED37A006E6031 /* Fuerte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fuerte.jpg; sourceTree = "<group>"; };
-		AB8A958C1D3ED37A006E6031 /* Guadalajara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guadalajara.png; sourceTree = "<group>"; };
-		AB8A958D1D3ED37A006E6031 /* Guasave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Guasave.jpg; sourceTree = "<group>"; };
-		AB8A958E1D3ED37A006E6031 /* Guaymas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Guaymas.jpg; sourceTree = "<group>"; };
-		AB8A958F1D3ED37A006E6031 /* Hermosillo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hermosillo.jpg; sourceTree = "<group>"; };
-		AB8A95901D3ED37A006E6031 /* Isla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isla.jpg; sourceTree = "<group>"; };
-		AB8A95911D3ED37A006E6031 /* Jalisco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jalisco.png; sourceTree = "<group>"; };
-		AB8A95921D3ED37A006E6031 /* Jerez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jerez.jpg; sourceTree = "<group>"; };
-		AB8A95931D3ED37A006E6031 /* Mazatlan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mazatlan.jpg; sourceTree = "<group>"; };
-		AB8A95941D3ED37A006E6031 /* Mochis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mochis.jpg; sourceTree = "<group>"; };
-		AB8A95951D3ED37A006E6031 /* Nochistlan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nochistlan.jpg; sourceTree = "<group>"; };
-		AB8A95961D3ED37A006E6031 /* Pinos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pinos.jpg; sourceTree = "<group>"; };
-		AB8A95971D3ED37A006E6031 /* Playa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Playa.jpg; sourceTree = "<group>"; };
-		AB8A95981D3ED37A006E6031 /* QuintanaRoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuintanaRoo.png; sourceTree = "<group>"; };
-		AB8A95991D3ED37A006E6031 /* SanCarlos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanCarlos.jpg; sourceTree = "<group>"; };
-		AB8A959A1D3ED37A006E6031 /* SanSebastian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SanSebastian.png; sourceTree = "<group>"; };
-		AB8A959B1D3ED37A006E6031 /* Sinaloa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sinaloa.png; sourceTree = "<group>"; };
-		AB8A959C1D3ED37A006E6031 /* Sombrerete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sombrerete.jpg; sourceTree = "<group>"; };
-		AB8A959D1D3ED37A006E6031 /* Sonora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sonora.png; sourceTree = "<group>"; };
-		AB8A959E1D3ED37A006E6031 /* Tapalpa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tapalpa.png; sourceTree = "<group>"; };
-		AB8A959F1D3ED37A006E6031 /* Tequila.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tequila.png; sourceTree = "<group>"; };
-		AB8A95A01D3ED37A006E6031 /* Teul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Teul.jpg; sourceTree = "<group>"; };
-		AB8A95A11D3ED37A006E6031 /* Tulum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tulum.jpg; sourceTree = "<group>"; };
-		AB8A95A21D3ED37A006E6031 /* Vallarta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vallarta.png; sourceTree = "<group>"; };
-		AB8A95A31D3ED37A006E6031 /* Zacatecas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zacatecas.png; sourceTree = "<group>"; };
-		AB8A95A41D3ED37A006E6031 /* Zapopan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zapopan.jpg; sourceTree = "<group>"; };
+		68E437581D7A2B8A00594C4F /* alimenticios.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alimenticios.jpg; sourceTree = "<group>"; };
+		68E437591D7A2B8A00594C4F /* black_coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black_coffee.jpg; sourceTree = "<group>"; };
+		68E4375A1D7A2B8A00594C4F /* black_ice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black_ice.jpg; sourceTree = "<group>"; };
+		68E4375B1D7A2B8A00594C4F /* cafe_mocha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cafe_mocha.jpg; sourceTree = "<group>"; };
+		68E4375C1D7A2B8A00594C4F /* cafe_supreme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cafe_supreme.jpg; sourceTree = "<group>"; };
+		68E4375D1D7A2B8A00594C4F /* cafe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cafe.jpg; sourceTree = "<group>"; };
+		68E4375E1D7A2B8A00594C4F /* cafelatte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cafelatte.jpg; sourceTree = "<group>"; };
+		68E437601D7A2B8A00594C4F /* cuidadopersonal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cuidadopersonal.jpg; sourceTree = "<group>"; };
+		68E437611D7A2B8A00594C4F /* ganoderma_lucidum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ganoderma_lucidum.jpg; sourceTree = "<group>"; };
+		68E437621D7A2B8A00594C4F /* ganoderma_polvo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ganoderma_polvo.jpg; sourceTree = "<group>"; };
+		68E437631D7A2B8A00594C4F /* green_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_tea.jpg; sourceTree = "<group>"; };
+		68E437641D7A2B8A00594C4F /* hot_chocolate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hot_chocolate.jpg; sourceTree = "<group>"; };
+		68E437651D7A2B8A00594C4F /* King_of_coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = King_of_coffee.jpg; sourceTree = "<group>"; };
+		68E437661D7A2B8A00594C4F /* lucidum_mycelium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lucidum_mycelium.jpg; sourceTree = "<group>"; };
+		68E437671D7A2B8A00594C4F /* natraceuticos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = natraceuticos.jpg; sourceTree = "<group>"; };
+		68E437681D7A2B8A00594C4F /* ogsmile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ogsmile.jpg; sourceTree = "<group>"; };
+		68E437691D7A2B8A00594C4F /* red_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red_tea.jpg; sourceTree = "<group>"; };
+		68E4377E1D7A511E00594C4F /* g3_soap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g3_soap.png; sourceTree = "<group>"; };
+		68E4377F1D7A511E00594C4F /* og_smile_set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = og_smile_set.png; sourceTree = "<group>"; };
+		68E437801D7A511E00594C4F /* og_smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = og_smile.png; sourceTree = "<group>"; };
+		68E437841D7A542E00594C4F /* bolsa_king.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bolsa_king.jpg; sourceTree = "<group>"; };
+		68E437851D7A542E00594C4F /* coffe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffe.jpg; sourceTree = "<group>"; };
+		68E437861D7A542E00594C4F /* jarra_te_verde.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jarra_te_verde.jpg; sourceTree = "<group>"; };
+		68E437871D7A542E00594C4F /* latte_lentes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = latte_lentes.jpg; sourceTree = "<group>"; };
+		68E437881D7A542E00594C4F /* mesa_terojo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mesa_terojo.jpg; sourceTree = "<group>"; };
+		68E4378E1D7A57BA00594C4F /* taza_chocolate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taza_chocolate.jpg; sourceTree = "<group>"; };
+		68E4378F1D7A57BA00594C4F /* taza_supreme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taza_supreme.jpg; sourceTree = "<group>"; };
+		68E437901D7A57BA00594C4F /* vasos_mocha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vasos_mocha.jpg; sourceTree = "<group>"; };
+		68E437941D7A582C00594C4F /* vaso_backice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vaso_backice.jpg; sourceTree = "<group>"; };
+		68E437961D7A61AE00594C4F /* Maps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maps.h; sourceTree = "<group>"; };
+		68E437971D7A61AE00594C4F /* Maps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Maps.m; sourceTree = "<group>"; };
 		AB96642F1D260B05009190CE /* Navigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9664331D260B05009190CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB9664351D260B05009190CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -124,38 +121,35 @@
 		AB8A95841D3ED37A006E6031 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
-				AB8A95851D3ED37A006E6031 /* AguaPrieta.jpg */,
-				AB8A95861D3ED37A006E6031 /* Bahia.jpg */,
-				AB8A95871D3ED37A006E6031 /* Cancun.jpg */,
-				AB8A95881D3ED37A006E6031 /* Chiapas.png */,
-				AB8A95891D3ED37A006E6031 /* Cozumel.jpg */,
-				AB8A958A1D3ED37A006E6031 /* Culiacan.jpg */,
-				AB8A958B1D3ED37A006E6031 /* Fuerte.jpg */,
-				AB8A958C1D3ED37A006E6031 /* Guadalajara.png */,
-				AB8A958D1D3ED37A006E6031 /* Guasave.jpg */,
-				AB8A958E1D3ED37A006E6031 /* Guaymas.jpg */,
-				AB8A958F1D3ED37A006E6031 /* Hermosillo.jpg */,
-				AB8A95901D3ED37A006E6031 /* Isla.jpg */,
-				AB8A95911D3ED37A006E6031 /* Jalisco.png */,
-				AB8A95921D3ED37A006E6031 /* Jerez.jpg */,
-				AB8A95931D3ED37A006E6031 /* Mazatlan.jpg */,
-				AB8A95941D3ED37A006E6031 /* Mochis.jpg */,
-				AB8A95951D3ED37A006E6031 /* Nochistlan.jpg */,
-				AB8A95961D3ED37A006E6031 /* Pinos.jpg */,
-				AB8A95971D3ED37A006E6031 /* Playa.jpg */,
-				AB8A95981D3ED37A006E6031 /* QuintanaRoo.png */,
-				AB8A95991D3ED37A006E6031 /* SanCarlos.jpg */,
-				AB8A959A1D3ED37A006E6031 /* SanSebastian.png */,
-				AB8A959B1D3ED37A006E6031 /* Sinaloa.png */,
-				AB8A959C1D3ED37A006E6031 /* Sombrerete.jpg */,
-				AB8A959D1D3ED37A006E6031 /* Sonora.png */,
-				AB8A959E1D3ED37A006E6031 /* Tapalpa.png */,
-				AB8A959F1D3ED37A006E6031 /* Tequila.png */,
-				AB8A95A01D3ED37A006E6031 /* Teul.jpg */,
-				AB8A95A11D3ED37A006E6031 /* Tulum.jpg */,
-				AB8A95A21D3ED37A006E6031 /* Vallarta.png */,
-				AB8A95A31D3ED37A006E6031 /* Zacatecas.png */,
-				AB8A95A41D3ED37A006E6031 /* Zapopan.jpg */,
+				68E437941D7A582C00594C4F /* vaso_backice.jpg */,
+				68E4378E1D7A57BA00594C4F /* taza_chocolate.jpg */,
+				68E4378F1D7A57BA00594C4F /* taza_supreme.jpg */,
+				68E437901D7A57BA00594C4F /* vasos_mocha.jpg */,
+				68E437841D7A542E00594C4F /* bolsa_king.jpg */,
+				68E437851D7A542E00594C4F /* coffe.jpg */,
+				68E437861D7A542E00594C4F /* jarra_te_verde.jpg */,
+				68E437871D7A542E00594C4F /* latte_lentes.jpg */,
+				68E437881D7A542E00594C4F /* mesa_terojo.jpg */,
+				68E4377E1D7A511E00594C4F /* g3_soap.png */,
+				68E4377F1D7A511E00594C4F /* og_smile_set.png */,
+				68E437801D7A511E00594C4F /* og_smile.png */,
+				68E437581D7A2B8A00594C4F /* alimenticios.jpg */,
+				68E437591D7A2B8A00594C4F /* black_coffee.jpg */,
+				68E4375A1D7A2B8A00594C4F /* black_ice.jpg */,
+				68E4375B1D7A2B8A00594C4F /* cafe_mocha.jpg */,
+				68E4375C1D7A2B8A00594C4F /* cafe_supreme.jpg */,
+				68E4375D1D7A2B8A00594C4F /* cafe.jpg */,
+				68E4375E1D7A2B8A00594C4F /* cafelatte.jpg */,
+				68E437601D7A2B8A00594C4F /* cuidadopersonal.jpg */,
+				68E437611D7A2B8A00594C4F /* ganoderma_lucidum.jpg */,
+				68E437621D7A2B8A00594C4F /* ganoderma_polvo.jpg */,
+				68E437631D7A2B8A00594C4F /* green_tea.jpg */,
+				68E437641D7A2B8A00594C4F /* hot_chocolate.jpg */,
+				68E437651D7A2B8A00594C4F /* King_of_coffee.jpg */,
+				68E437661D7A2B8A00594C4F /* lucidum_mycelium.jpg */,
+				68E437671D7A2B8A00594C4F /* natraceuticos.jpg */,
+				68E437681D7A2B8A00594C4F /* ogsmile.jpg */,
+				68E437691D7A2B8A00594C4F /* red_tea.jpg */,
 			);
 			path = imgs;
 			sourceTree = "<group>";
@@ -219,6 +213,8 @@
 				ABBAACFA1D26BDA0003D4AE3 /* DestinationDetails.m */,
 				ABBAAD361D27199D003D4AE3 /* DescriptionCity.h */,
 				ABBAAD371D27199D003D4AE3 /* DescriptionCity.m */,
+				68E437961D7A61AE00594C4F /* Maps.h */,
+				68E437971D7A61AE00594C4F /* Maps.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -293,43 +289,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB8A95AD1D3ED37A006E6031 /* Guasave.jpg in Resources */,
-				AB8A95B11D3ED37A006E6031 /* Jalisco.png in Resources */,
-				AB8A95B01D3ED37A006E6031 /* Isla.jpg in Resources */,
-				AB8A95AA1D3ED37A006E6031 /* Culiacan.jpg in Resources */,
-				AB8A95A81D3ED37A006E6031 /* Chiapas.png in Resources */,
-				AB8A95C11D3ED37A006E6031 /* Tulum.jpg in Resources */,
-				AB8A95BB1D3ED37A006E6031 /* Sinaloa.png in Resources */,
-				AB8A95AC1D3ED37A006E6031 /* Guadalajara.png in Resources */,
+				68E4378A1D7A542E00594C4F /* coffe.jpg in Resources */,
+				68E437701D7A2B8A00594C4F /* cafe.jpg in Resources */,
+				68E4376C1D7A2B8A00594C4F /* black_coffee.jpg in Resources */,
+				68E4377C1D7A2B8A00594C4F /* red_tea.jpg in Resources */,
+				68E4377B1D7A2B8A00594C4F /* ogsmile.jpg in Resources */,
+				68E437931D7A57BA00594C4F /* vasos_mocha.jpg in Resources */,
 				AB9664451D260B05009190CE /* LaunchScreen.storyboard in Resources */,
-				AB8A95A71D3ED37A006E6031 /* Cancun.jpg in Resources */,
-				AB8A95BD1D3ED37A006E6031 /* Sonora.png in Resources */,
-				AB8A95C31D3ED37A006E6031 /* Zacatecas.png in Resources */,
-				AB8A95AB1D3ED37A006E6031 /* Fuerte.jpg in Resources */,
+				68E437781D7A2B8A00594C4F /* King_of_coffee.jpg in Resources */,
+				68E4378C1D7A542E00594C4F /* latte_lentes.jpg in Resources */,
+				68E4376E1D7A2B8A00594C4F /* cafe_mocha.jpg in Resources */,
+				68E4376B1D7A2B8A00594C4F /* alimenticios.jpg in Resources */,
 				AB9664421D260B05009190CE /* Assets.xcassets in Resources */,
-				AB8A95B41D3ED37A006E6031 /* Mochis.jpg in Resources */,
+				68E437821D7A511E00594C4F /* og_smile_set.png in Resources */,
 				AB9664531D26112C009190CE /* cellHome.xib in Resources */,
-				AB8A95B81D3ED37A006E6031 /* QuintanaRoo.png in Resources */,
-				AB8A95BC1D3ED37A006E6031 /* Sombrerete.jpg in Resources */,
-				AB8A95AE1D3ED37A006E6031 /* Guaymas.jpg in Resources */,
-				AB8A95BE1D3ED37A006E6031 /* Tapalpa.png in Resources */,
-				AB8A95B91D3ED37A006E6031 /* SanCarlos.jpg in Resources */,
-				AB8A95BF1D3ED37A006E6031 /* Tequila.png in Resources */,
-				AB8A95A91D3ED37A006E6031 /* Cozumel.jpg in Resources */,
-				AB8A95AF1D3ED37A006E6031 /* Hermosillo.jpg in Resources */,
-				AB8A95BA1D3ED37A006E6031 /* SanSebastian.png in Resources */,
-				AB8A95C01D3ED37A006E6031 /* Teul.jpg in Resources */,
-				AB8A95B71D3ED37A006E6031 /* Playa.jpg in Resources */,
+				68E437761D7A2B8A00594C4F /* green_tea.jpg in Resources */,
+				68E437711D7A2B8A00594C4F /* cafelatte.jpg in Resources */,
+				68E437921D7A57BA00594C4F /* taza_supreme.jpg in Resources */,
+				68E437831D7A511E00594C4F /* og_smile.png in Resources */,
+				68E4378D1D7A542E00594C4F /* mesa_terojo.jpg in Resources */,
+				68E4377A1D7A2B8A00594C4F /* natraceuticos.jpg in Resources */,
 				ABBAAD331D270444003D4AE3 /* cellDestinations.xib in Resources */,
-				AB8A95B51D3ED37A006E6031 /* Nochistlan.jpg in Resources */,
-				AB8A95A51D3ED37A006E6031 /* AguaPrieta.jpg in Resources */,
-				AB8A95A61D3ED37A006E6031 /* Bahia.jpg in Resources */,
+				68E4376F1D7A2B8A00594C4F /* cafe_supreme.jpg in Resources */,
+				68E4378B1D7A542E00594C4F /* jarra_te_verde.jpg in Resources */,
+				68E4376D1D7A2B8A00594C4F /* black_ice.jpg in Resources */,
 				AB96643D1D260B05009190CE /* Main.storyboard in Resources */,
-				AB8A95C21D3ED37A006E6031 /* Vallarta.png in Resources */,
-				AB8A95B61D3ED37A006E6031 /* Pinos.jpg in Resources */,
-				AB8A95B21D3ED37A006E6031 /* Jerez.jpg in Resources */,
-				AB8A95C41D3ED37A006E6031 /* Zapopan.jpg in Resources */,
-				AB8A95B31D3ED37A006E6031 /* Mazatlan.jpg in Resources */,
+				68E437951D7A582C00594C4F /* vaso_backice.jpg in Resources */,
+				68E437911D7A57BA00594C4F /* taza_chocolate.jpg in Resources */,
+				68E437811D7A511E00594C4F /* g3_soap.png in Resources */,
+				68E437771D7A2B8A00594C4F /* hot_chocolate.jpg in Resources */,
+				68E437791D7A2B8A00594C4F /* lucidum_mycelium.jpg in Resources */,
+				68E437731D7A2B8A00594C4F /* cuidadopersonal.jpg in Resources */,
+				68E437741D7A2B8A00594C4F /* ganoderma_lucidum.jpg in Resources */,
+				68E437891D7A542E00594C4F /* bolsa_king.jpg in Resources */,
+				68E437751D7A2B8A00594C4F /* ganoderma_polvo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +340,7 @@
 				ABBAAD381D27199D003D4AE3 /* DescriptionCity.m in Sources */,
 				AB9664521D26112C009190CE /* cellHome.m in Sources */,
 				AB9664341D260B05009190CE /* main.m in Sources */,
+				68E437981D7A61AE00594C4F /* Maps.m in Sources */,
 				ABBAACFB1D26BDA0003D4AE3 /* DestinationDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

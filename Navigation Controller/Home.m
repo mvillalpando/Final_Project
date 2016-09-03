@@ -33,8 +33,8 @@
 }
 //-------------------------------------------------------------------------------
 - (void)initController {
-    self.destinationTitles   = [[NSMutableArray alloc] initWithObjects: @"Jalisco", @"Zacatecas", @"Sinaloa", @"Sonora", @"Quintana Roo", nil];
-    self.destinationPhotos   = [[NSMutableArray alloc] initWithObjects: @"Jalisco.png", @"Zacatecas.png", @"Sinaloa.png", @"Sonora.png", @"QuintanaRoo.png", nil];
+    self.destinationTitles   = [[NSMutableArray alloc] initWithObjects: @"Café & Té", @"Nutracéuticos", @"Cuidado personal", /*@"Suplementos alimenticios",*/ nil];
+    self.destinationPhotos   = [[NSMutableArray alloc] initWithObjects: @"coffe.jpg", @"natraceuticos.jpg", @"cuidadopersonal.jpg", /*@"alimenticios.jpg",*/ nil];
 }
 /**********************************************************************************************/
 #pragma mark - Table source and delegate methods

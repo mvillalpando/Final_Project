@@ -11,7 +11,9 @@
 @interface DescriptionCity : UIViewController
 @property NSString *dTitles;
 @property NSString *dDescriptions;
+@property NSString *dPrice;
 @property NSString *dPhotos;
+@property NSString *dImages;
 
 @property (strong, nonatomic) IBOutlet UILabel *lblDescription;
 @property (strong, nonatomic) IBOutlet UILabel *lblCity;
