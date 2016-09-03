@@ -39,7 +39,10 @@
 		68E437981D7A61AE00594C4F /* Maps.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E437971D7A61AE00594C4F /* Maps.m */; };
 		68E4379C1D7A63BB00594C4F /* cellMaps.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4379A1D7A63BB00594C4F /* cellMaps.m */; };
 		68E4379D1D7A63BB00594C4F /* cellMaps.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E4379B1D7A63BB00594C4F /* cellMaps.xib */; };
-		68E4379F1D7A762D00594C4F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 68E4379E1D7A762D00594C4F /* Podfile */; };
+		68E437A11D7A780A00594C4F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 68E437A01D7A780A00594C4F /* Podfile */; };
+		68E437A31D7A887000594C4F /* OG-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E437A21D7A887000594C4F /* OG-Logo.png */; };
+		68E437A51D7A893B00594C4F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 68E437A41D7A893B00594C4F /* logo.png */; };
+		68E437A81D7A8DD200594C4F /* PayPal.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E437A71D7A8DD200594C4F /* PayPal.m */; };
 		AB9664341D260B05009190CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664331D260B05009190CE /* main.m */; };
 		AB9664371D260B05009190CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664361D260B05009190CE /* AppDelegate.m */; };
 		AB96643A1D260B05009190CE /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664391D260B05009190CE /* Home.m */; };
@@ -53,9 +56,11 @@
 		ABBAAD321D270444003D4AE3 /* cellDestinations.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBAAD301D270444003D4AE3 /* cellDestinations.m */; };
 		ABBAAD331D270444003D4AE3 /* cellDestinations.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABBAAD311D270444003D4AE3 /* cellDestinations.xib */; };
 		ABBAAD381D27199D003D4AE3 /* DescriptionCity.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBAAD371D27199D003D4AE3 /* DescriptionCity.m */; };
+		C0CA8166982ED068988667D0 /* Pods_Navigation_Controller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952238516D20F6E1D0C1D7F9 /* Pods_Navigation_Controller.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60D152485E76DEEDBEB09907 /* Pods-Navigation Controller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navigation Controller.release.xcconfig"; path = "Pods/Target Support Files/Pods-Navigation Controller/Pods-Navigation Controller.release.xcconfig"; sourceTree = "<group>"; };
 		68E437581D7A2B8A00594C4F /* alimenticios.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alimenticios.jpg; sourceTree = "<group>"; };
 		68E437591D7A2B8A00594C4F /* black_coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black_coffee.jpg; sourceTree = "<group>"; };
 		68E4375A1D7A2B8A00594C4F /* black_ice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black_ice.jpg; sourceTree = "<group>"; };
@@ -90,7 +95,12 @@
 		68E437991D7A63BB00594C4F /* cellMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMaps.h; sourceTree = "<group>"; };
 		68E4379A1D7A63BB00594C4F /* cellMaps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMaps.m; sourceTree = "<group>"; };
 		68E4379B1D7A63BB00594C4F /* cellMaps.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMaps.xib; sourceTree = "<group>"; };
-		68E4379E1D7A762D00594C4F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = "Navigation Controller/Podfile"; sourceTree = "<group>"; };
+		68E437A01D7A780A00594C4F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		68E437A21D7A887000594C4F /* OG-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OG-Logo.png"; sourceTree = "<group>"; };
+		68E437A41D7A893B00594C4F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		68E437A61D7A8DD200594C4F /* PayPal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPal.h; sourceTree = "<group>"; };
+		68E437A71D7A8DD200594C4F /* PayPal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayPal.m; sourceTree = "<group>"; };
+		952238516D20F6E1D0C1D7F9 /* Pods_Navigation_Controller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Navigation_Controller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB96642F1D260B05009190CE /* Navigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9664331D260B05009190CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB9664351D260B05009190CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +122,7 @@
 		ABBAAD311D270444003D4AE3 /* cellDestinations.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellDestinations.xib; sourceTree = "<group>"; };
 		ABBAAD361D27199D003D4AE3 /* DescriptionCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionCity.h; sourceTree = "<group>"; };
 		ABBAAD371D27199D003D4AE3 /* DescriptionCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionCity.m; sourceTree = "<group>"; };
+		E399960D781AFB006CB25052 /* Pods-Navigation Controller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navigation Controller.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Navigation Controller/Pods-Navigation Controller.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,15 +130,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0CA8166982ED068988667D0 /* Pods_Navigation_Controller.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74757A9F0C4F3E679F5F21A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E399960D781AFB006CB25052 /* Pods-Navigation Controller.debug.xcconfig */,
+				60D152485E76DEEDBEB09907 /* Pods-Navigation Controller.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AB8A95841D3ED37A006E6031 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				68E437A41D7A893B00594C4F /* logo.png */,
+				68E437A21D7A887000594C4F /* OG-Logo.png */,
 				68E437941D7A582C00594C4F /* vaso_backice.jpg */,
 				68E4378E1D7A57BA00594C4F /* taza_chocolate.jpg */,
 				68E4378F1D7A57BA00594C4F /* taza_supreme.jpg */,
@@ -164,9 +187,11 @@
 		AB9664261D260B05009190CE = {
 			isa = PBXGroup;
 			children = (
-				68E4379E1D7A762D00594C4F /* Podfile */,
+				68E437A01D7A780A00594C4F /* Podfile */,
 				AB9664311D260B05009190CE /* Navigation Controller */,
 				AB9664301D260B05009190CE /* Products */,
+				74757A9F0C4F3E679F5F21A4 /* Pods */,
+				F4706DB2049A490676BB3EAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -223,6 +248,8 @@
 				ABBAAD371D27199D003D4AE3 /* DescriptionCity.m */,
 				68E437961D7A61AE00594C4F /* Maps.h */,
 				68E437971D7A61AE00594C4F /* Maps.m */,
+				68E437A61D7A8DD200594C4F /* PayPal.h */,
+				68E437A71D7A8DD200594C4F /* PayPal.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -243,6 +270,14 @@
 			name = Cells;
 			sourceTree = "<group>";
 		};
+		F4706DB2049A490676BB3EAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				952238516D20F6E1D0C1D7F9 /* Pods_Navigation_Controller.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -250,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB9664491D260B05009190CE /* Build configuration list for PBXNativeTarget "Navigation Controller" */;
 			buildPhases = (
+				1CCA4FAEB12B1DC664038E92 /* [CP] Check Pods Manifest.lock */,
 				AB96642B1D260B05009190CE /* Sources */,
 				AB96642C1D260B05009190CE /* Frameworks */,
 				AB96642D1D260B05009190CE /* Resources */,
+				8A63D7F642FC82DD71A5AFA8 /* [CP] Embed Pods Frameworks */,
+				DD61807E8796AC295CA2156B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -306,12 +344,13 @@
 				68E4377C1D7A2B8A00594C4F /* red_tea.jpg in Resources */,
 				68E4377B1D7A2B8A00594C4F /* ogsmile.jpg in Resources */,
 				68E437931D7A57BA00594C4F /* vasos_mocha.jpg in Resources */,
-				68E4379F1D7A762D00594C4F /* Podfile in Resources */,
+				68E437A11D7A780A00594C4F /* Podfile in Resources */,
 				AB9664451D260B05009190CE /* LaunchScreen.storyboard in Resources */,
 				68E437781D7A2B8A00594C4F /* King_of_coffee.jpg in Resources */,
 				68E4379D1D7A63BB00594C4F /* cellMaps.xib in Resources */,
 				68E4378C1D7A542E00594C4F /* latte_lentes.jpg in Resources */,
 				68E4376E1D7A2B8A00594C4F /* cafe_mocha.jpg in Resources */,
+				68E437A51D7A893B00594C4F /* logo.png in Resources */,
 				68E4376B1D7A2B8A00594C4F /* alimenticios.jpg in Resources */,
 				AB9664421D260B05009190CE /* Assets.xcassets in Resources */,
 				68E437821D7A511E00594C4F /* og_smile_set.png in Resources */,
@@ -329,6 +368,7 @@
 				AB96643D1D260B05009190CE /* Main.storyboard in Resources */,
 				68E437951D7A582C00594C4F /* vaso_backice.jpg in Resources */,
 				68E437911D7A57BA00594C4F /* taza_chocolate.jpg in Resources */,
+				68E437A31D7A887000594C4F /* OG-Logo.png in Resources */,
 				68E437811D7A511E00594C4F /* g3_soap.png in Resources */,
 				68E437771D7A2B8A00594C4F /* hot_chocolate.jpg in Resources */,
 				68E437791D7A2B8A00594C4F /* lucidum_mycelium.jpg in Resources */,
@@ -341,6 +381,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CCA4FAEB12B1DC664038E92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A63D7F642FC82DD71A5AFA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Navigation Controller/Pods-Navigation Controller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD61807E8796AC295CA2156B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Navigation Controller/Pods-Navigation Controller-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB96642B1D260B05009190CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -352,6 +440,7 @@
 				ABBAAD321D270444003D4AE3 /* cellDestinations.m in Sources */,
 				ABBAAD381D27199D003D4AE3 /* DescriptionCity.m in Sources */,
 				AB9664521D26112C009190CE /* cellHome.m in Sources */,
+				68E437A81D7A8DD200594C4F /* PayPal.m in Sources */,
 				AB9664341D260B05009190CE /* main.m in Sources */,
 				68E437981D7A61AE00594C4F /* Maps.m in Sources */,
 				68E4379C1D7A63BB00594C4F /* cellMaps.m in Sources */,
@@ -465,6 +554,7 @@
 		};
 		AB96644A1D260B05009190CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E399960D781AFB006CB25052 /* Pods-Navigation Controller.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Navigation Controller/Info.plist";
@@ -476,6 +566,7 @@
 		};
 		AB96644B1D260B05009190CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D152485E76DEEDBEB09907 /* Pods-Navigation Controller.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Navigation Controller/Info.plist";
