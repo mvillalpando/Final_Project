@@ -39,6 +39,7 @@
 		68E437981D7A61AE00594C4F /* Maps.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E437971D7A61AE00594C4F /* Maps.m */; };
 		68E4379C1D7A63BB00594C4F /* cellMaps.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4379A1D7A63BB00594C4F /* cellMaps.m */; };
 		68E4379D1D7A63BB00594C4F /* cellMaps.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E4379B1D7A63BB00594C4F /* cellMaps.xib */; };
+		68E4379F1D7A762D00594C4F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 68E4379E1D7A762D00594C4F /* Podfile */; };
 		AB9664341D260B05009190CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664331D260B05009190CE /* main.m */; };
 		AB9664371D260B05009190CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664361D260B05009190CE /* AppDelegate.m */; };
 		AB96643A1D260B05009190CE /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664391D260B05009190CE /* Home.m */; };
@@ -89,6 +90,7 @@
 		68E437991D7A63BB00594C4F /* cellMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMaps.h; sourceTree = "<group>"; };
 		68E4379A1D7A63BB00594C4F /* cellMaps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMaps.m; sourceTree = "<group>"; };
 		68E4379B1D7A63BB00594C4F /* cellMaps.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMaps.xib; sourceTree = "<group>"; };
+		68E4379E1D7A762D00594C4F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		AB96642F1D260B05009190CE /* Navigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9664331D260B05009190CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB9664351D260B05009190CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				AB9664461D260B05009190CE /* Info.plist */,
 				AB96643E1D260B05009190CE /* Navigation_Controller.xcdatamodeld */,
 				AB9664321D260B05009190CE /* Supporting Files */,
+				68E4379E1D7A762D00594C4F /* Podfile */,
 			);
 			path = "Navigation Controller";
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				68E4377C1D7A2B8A00594C4F /* red_tea.jpg in Resources */,
 				68E4377B1D7A2B8A00594C4F /* ogsmile.jpg in Resources */,
 				68E437931D7A57BA00594C4F /* vasos_mocha.jpg in Resources */,
+				68E4379F1D7A762D00594C4F /* Podfile in Resources */,
 				AB9664451D260B05009190CE /* LaunchScreen.storyboard in Resources */,
 				68E437781D7A2B8A00594C4F /* King_of_coffee.jpg in Resources */,
 				68E4379D1D7A63BB00594C4F /* cellMaps.xib in Resources */,

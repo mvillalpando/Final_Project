@@ -10,6 +10,15 @@
 
 @interface Maps ()
 
+@property NSMutableArray *cedisName;
+@property NSMutableArray *cedisAddress;
+@property NSMutableArray *coorLatitude;
+@property NSMutableArray *coorLongitude;
+
+
+@property NSString *MySelection;
+
+
 @end
 
 @implementation Maps
@@ -29,8 +38,10 @@
 }
 //-------------------------------------------------------------------------------
 - (void)initController {
-    self.destinationTitles   = [[NSMutableArray alloc] initWithObjects: @"Café & Té", @"Nutracéuticos", @"Cuidado personal", /*@"Suplementos alimenticios",*/ nil];
-    self.destinationPhotos   = [[NSMutableArray alloc] initWithObjects: @"coffe.jpg", @"natraceuticos.jpg", @"cuidadopersonal.jpg", /*@"alimenticios.jpg",*/ nil];
+    self.cedisName   = [[NSMutableArray alloc] initWithObjects: @"Guadalajara", @"Monterrey", @"Tijuana", @"Ciudad de Mexico", @"Pachuca", nil];
+    self.cedisAddress   = [[NSMutableArray alloc] initWithObjects: @"Paseo de la Arboleda No. 1122", @"Av. José Eleuterio Gómez No. 315", @"Blvd. Díaz Ordaz No. 14910", @"Av. Insurgentes Sur No. 1666", @"Av. Revolución esq. 16 de enero", nil];
+    self.coorLatitude   = [[NSMutableArray alloc] initWithObjects: @"20.6575109", @"25.6796906", @"32.4951589", @"19.361577", @"20.1161821", nil];
+    self.coorLongitude   = [[NSMutableArray alloc] initWithObjects: @"-103.3883214", @"-100.3525703", @"-116.9605764", @"-99.1850139", @"-98.7453833", nil];
 }
 /**********************************************************************************************/
 #pragma mark - Table source and delegate methods
@@ -40,31 +51,26 @@
 }
 //-------------------------------------------------------------------------------
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.destinationTitles.count;
+    return self.cedisName.count;
 }
 //-------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 190;
+    return 150;
 }
 //-------------------------------------------------------------------------------
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     //Initialize cells
-    cellHome *cell = (cellHome *)[tableView dequeueReusableCellWithIdentifier:@"cellHome"];
+    cellMaps *cell = (cellMaps *)[tableView dequeueReusableCellWithIdentifier:@"cellMaps"];
     
     if (cell == nil) {
-        [tableView registerNib:[UINib nibWithNibName:@"cellHome" bundle:nil] forCellReuseIdentifier:@"cellHome"];
-        cell = [tableView dequeueReusableCellWithIdentifier:@"cellHome"];
+        [tableView registerNib:[UINib nibWithNibName:@"cellMaps" bundle:nil] forCellReuseIdentifier:@"cellMaps"];
+        cell = [tableView dequeueReusableCellWithIdentifier:@"cellMaps"];
     }
     
-    cell.lblDestination.text = self.destinationTitles[indexPath.row];
-    cell.imgDestination.image = [UIImage imageNamed:self.destinationPhotos[indexPath.row]];
+    cell.lblCedisName.text = self.cedisName[indexPath.row];
+    cell.lblCedisAddress.text = self.cedisAddress[indexPath.row];
+//    cell.imgDestination.image = [UIImage imageNamed:self.destinationPhotos[indexPath.row]];
     return cell;
-}
-//-------------------------------------------------------------------------------
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    self.MySelection = self.destinationTitles[indexPath.row];
-    [self performSegueWithIdentifier:@"DestinationDetails" sender:self];
 }
 
 

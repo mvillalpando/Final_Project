@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface cellMaps : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *lblCedisName;
+@property (strong, nonatomic) IBOutlet UILabel *lblCedisAddress;
 
 @end
