@@ -30,4 +30,17 @@
 }
 
 
+- (IBAction)btnBuyPressed:(id)sender {
+    
+//    [self performSegueWithIdentifier:@"Maps" sender:self];
+}
+
+//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+//    
+//    if ([segue.destinationViewController isKindOfClass:[Maps class]]) {
+//        Maps *destination     = [segue destinationViewController];
+//        
+//    }
+//}
+
 @end

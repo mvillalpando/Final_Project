@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Maps.h"
 
 @interface DescriptionCity : UIViewController
 @property NSString *dTitles;
@@ -18,5 +19,9 @@
 @property (strong, nonatomic) IBOutlet UILabel *lblDescription;
 @property (strong, nonatomic) IBOutlet UILabel *lblCity;
 @property (strong, nonatomic) IBOutlet UIImageView *imgDescription;
+
+@property (strong, nonatomic) IBOutlet UIButton *btnBuy;
+- (IBAction)btnBuyPressed:(id)sender;
+
 
 @end

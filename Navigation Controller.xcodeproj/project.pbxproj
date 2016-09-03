@@ -37,6 +37,8 @@
 		68E437931D7A57BA00594C4F /* vasos_mocha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437901D7A57BA00594C4F /* vasos_mocha.jpg */; };
 		68E437951D7A582C00594C4F /* vaso_backice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68E437941D7A582C00594C4F /* vaso_backice.jpg */; };
 		68E437981D7A61AE00594C4F /* Maps.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E437971D7A61AE00594C4F /* Maps.m */; };
+		68E4379C1D7A63BB00594C4F /* cellMaps.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4379A1D7A63BB00594C4F /* cellMaps.m */; };
+		68E4379D1D7A63BB00594C4F /* cellMaps.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E4379B1D7A63BB00594C4F /* cellMaps.xib */; };
 		AB9664341D260B05009190CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664331D260B05009190CE /* main.m */; };
 		AB9664371D260B05009190CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664361D260B05009190CE /* AppDelegate.m */; };
 		AB96643A1D260B05009190CE /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9664391D260B05009190CE /* Home.m */; };
@@ -84,6 +86,9 @@
 		68E437941D7A582C00594C4F /* vaso_backice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vaso_backice.jpg; sourceTree = "<group>"; };
 		68E437961D7A61AE00594C4F /* Maps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maps.h; sourceTree = "<group>"; };
 		68E437971D7A61AE00594C4F /* Maps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Maps.m; sourceTree = "<group>"; };
+		68E437991D7A63BB00594C4F /* cellMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMaps.h; sourceTree = "<group>"; };
+		68E4379A1D7A63BB00594C4F /* cellMaps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMaps.m; sourceTree = "<group>"; };
+		68E4379B1D7A63BB00594C4F /* cellMaps.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMaps.xib; sourceTree = "<group>"; };
 		AB96642F1D260B05009190CE /* Navigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9664331D260B05009190CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB9664351D260B05009190CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -228,6 +233,9 @@
 				ABBAAD2F1D270444003D4AE3 /* cellDestinations.h */,
 				ABBAAD301D270444003D4AE3 /* cellDestinations.m */,
 				ABBAAD311D270444003D4AE3 /* cellDestinations.xib */,
+				68E437991D7A63BB00594C4F /* cellMaps.h */,
+				68E4379A1D7A63BB00594C4F /* cellMaps.m */,
+				68E4379B1D7A63BB00594C4F /* cellMaps.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -297,6 +305,7 @@
 				68E437931D7A57BA00594C4F /* vasos_mocha.jpg in Resources */,
 				AB9664451D260B05009190CE /* LaunchScreen.storyboard in Resources */,
 				68E437781D7A2B8A00594C4F /* King_of_coffee.jpg in Resources */,
+				68E4379D1D7A63BB00594C4F /* cellMaps.xib in Resources */,
 				68E4378C1D7A542E00594C4F /* latte_lentes.jpg in Resources */,
 				68E4376E1D7A2B8A00594C4F /* cafe_mocha.jpg in Resources */,
 				68E4376B1D7A2B8A00594C4F /* alimenticios.jpg in Resources */,
@@ -341,6 +350,7 @@
 				AB9664521D26112C009190CE /* cellHome.m in Sources */,
 				AB9664341D260B05009190CE /* main.m in Sources */,
 				68E437981D7A61AE00594C4F /* Maps.m in Sources */,
+				68E4379C1D7A63BB00594C4F /* cellMaps.m in Sources */,
 				ABBAACFB1D26BDA0003D4AE3 /* DestinationDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="black_coffee.jpg" id="edo-VB-2Y5" userLabel="imgDestinations">
-                                <rect key="frame" x="0.0" y="0.0" width="120" height="170"/>
+                                <rect key="frame" x="0.0" y="0.0" width="120" height="180"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Se localiza en el occidente de México, al centro de Jalisco, en la zona geográfica conocida como Valle de Atemajac." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LnC-54-PKf" userLabel="lblDescription">

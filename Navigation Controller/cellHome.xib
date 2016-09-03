@@ -18,11 +18,11 @@
                         <rect key="frame" x="10" y="0.0" width="300" height="180"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Guadalajara.png" id="9VD-np-YIm" userLabel="imgDestination">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cafe.jpg" id="9VD-np-YIm" userLabel="imgDestination">
                                 <rect key="frame" x="10" y="10" width="162" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guadalajara" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eab-ex-nU6" userLabel="lblDestination">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eab-ex-nU6" userLabel="lblDestination">
                                 <rect key="frame" x="180" y="48" width="120" height="84"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
@@ -44,6 +44,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="Guadalajara.png" width="680" height="456"/>
+        <image name="cafe.jpg" width="1080" height="932"/>
     </resources>
 </document>

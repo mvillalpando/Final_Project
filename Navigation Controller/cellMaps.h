@@ -1,5 +1,5 @@
 //
-//  Maps.h
+//  cellMaps.h
 //  Navigation Controller
 //
 //  Created by Carlos E. Villalpando on 9/2/16.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "cellMaps.h"
 
-@interface Maps : UIViewController
+@interface cellMaps : UITableViewCell
 
 @end
